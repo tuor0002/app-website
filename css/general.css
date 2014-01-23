@@ -121,7 +121,6 @@ section {
 
 .screenshots img {
 	border: 1em solid #009966;
-	box-shadow: 0px 0px 10px #000;
 }
 
 .features {
@@ -134,6 +133,32 @@ section {
 
 .tabpage{
 	max-width: 80%;
+}
+
+.carousel {
+	padding-bottom: 56.23% ;	/*Image aspect ratio: height / width * 100 */
+	position: relative;
+}
+
+.carousel-items img {
+	position : absolute;
+	top: 0;
+	left: 0;
+	width: 85%;
+}
+
+.carousel-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+
+.carousel-buttons {
+	position: absolute;
+	z-index: 1000;
 }
 
 .video,
