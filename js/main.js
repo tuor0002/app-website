@@ -48,7 +48,7 @@ var $placeholder = $('#video-placeholder');
 dialogPolyfill.registerDialog($dialog.get(0));
 
 $('#btn-open') .on ('click' , function () {
-	$placeholder.html('<iframe src="//player.vimeo.com/video/83188569?color=ffffff&amp;autoplay=1" width="450" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>')
+	$placeholder.html('<iframe src="//player.vimeo.com/video/83188569?color=ffffff&amp;autoplay=1" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>')
 	/* 
 	.get (get) returns the native Javascropt element for us to access 
 	When using Jquery we don't hve access to the original HTML elements directly, we are using jQuery to maniplate them.
