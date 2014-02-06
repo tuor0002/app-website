@@ -7,6 +7,7 @@
   <link href="css/normalize.css" rel="stylesheet">
    <link href="css/dialog-polyfill.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
+   <link href="css/animation.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   
   
@@ -18,15 +19,16 @@
 	<header>
 		<nav class="unit">
 		
-			<a href="index.html" class="logo">
-				<img src="img/beertab.png" class="flex-image" alt="logo">
+			<a href="index.html" class="logo">					<img class="sun" src="img/beer-icon3.svg" alt="Beer Tab Icon">
+				</section>
+				
 			</a>
 		</nav>
 		<nav class="unit">
 			<div class="unit-spacer">
 				<a href="index.html">
 					<h1>Beer Tab App</h1>
-				</a>
+							</a>
 			</div>
 		</nav>
 	</header>
@@ -43,8 +45,12 @@
 			</div>
 			<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
 				<div class="unit-spacer">
+						
 					<h2>Bar Menu and Tab App</h2>
+
 					<p> The fast and easy way to order beer and drinks at the bar throughout the night. You can keep track of everything you have orderd throughout the night and also easily order another drink from your current tab. It makes paying at the end of the night hassel free, as you can just pay when your ready through your phone at any time.</p>
+					
+
 					
 					<button id="btn-open"> Open Video </button>
 						
@@ -54,14 +60,28 @@
 						</dialog>
 						
 					<button>Download Now</button>
+					
+
+
 				</div>
 			</div>
 		</section>
 
-		<section class="grid screenshots">
-			<div class="unit unit-s-1 unit-m-1 unit-l-1">
-				<div class="unit-spacer">
+		<section class="grid ">
+
 					
+					<div class="unit unit-s-1 unit-m-1 unit-l-1">
+						
+							<section class="dipper-section">
+								<img class="dipper" src="img/beer-icon.svg" alt="Beer Glass">
+						</section>
+					</div>
+				
+					
+	
+			<div class="unit unit-s-1 unit-m-1 unit-l-1">
+				<div class="unit-spacer screenshots">
+					<center>
 						<div class="carousel">
 							<div class="carousel-items">
 						
@@ -78,10 +98,11 @@
 								 <button class="next"> Next </button>
 							 </div>
 						</div>
-				
+				</center>
 				</div>
 			</div>
-		</section>
+			
+
 	
 
 	<footer>
@@ -93,6 +114,8 @@
 
   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
   <script src="js/dialog-polyfill.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/animation.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -92,6 +92,15 @@ mark {
 	background-color: #CAFF00;
 }
 
+h1 { 
+font-size: 1em;
+padding: 0;
+}
+
+p { 
+font-size: 0.7em;
+}
+
 button {
 	font-size: 1rem;
 	font-weight: bold;
