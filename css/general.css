@@ -97,6 +97,19 @@ font-size: 1em;
 padding: 0;
 }
 
+h3 {
+	font-size: 1em;
+}
+
+dd {
+	font-size: 0.8em;
+}
+
+
+dt {
+	font-size: 0.7em;
+}
+
 p { 
 font-size: 0.7em;
 }
@@ -160,6 +173,9 @@ dialog + .backdrop {
 }
 
 
+.cara {
+	max-width: 300px;
+}
 
 
 .screenshots {
