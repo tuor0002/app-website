@@ -40,7 +40,7 @@ var dinoData = $.ajax('dinos.json', {
 // Because AJAX take time to download things of the internet
 //.done() will be triggered only after jquery has finished downloading
 dinoData.done(function (data) {
-	var dino =  Math.round (Math.random() * data.length - 1 );
+	var dino =  Math.round (Math.random() * (data.length - 1) );
 	
 	$('.dino-name').html(data[dino].name);
 	$('.dino-period').html(data[dino].period);
